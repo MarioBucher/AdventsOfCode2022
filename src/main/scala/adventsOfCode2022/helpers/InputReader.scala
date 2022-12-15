@@ -1,6 +1,6 @@
-package adventsOfCode2022.day1
+package adventsOfCode2022.helpers
 
-import io.Source
+import scala.io.Source
 
 object InputReader {
 

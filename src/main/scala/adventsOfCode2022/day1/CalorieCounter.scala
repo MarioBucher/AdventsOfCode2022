@@ -1,5 +1,7 @@
 package adventsOfCode2022.day1
 
+import adventsOfCode2022.helpers.InputReader
+
 object CalorieCounter extends App {
   val listOfElves = parseInputToElves(InputReader.readFile())
   val listOfElvesWithSummedCalories = listOfElves.map(_.sum).sorted.reverse
