@@ -4,9 +4,7 @@ import scala.io.Source
 
 object InputReader {
 
-  val filename = "day1_input"
-
-  def readFile(): String = {
+  def readFile(filename: String): String = {
     Source.fromResource(filename).mkString
   }
 
